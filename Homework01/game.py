@@ -13,11 +13,10 @@ import random
 # 3 - lizard
 # 4 - scissors
 
-# helper functions
-
 choices = ["rock", "Spock", "paper", "lizard", "scissors"]
 
 
+# helper functions
 def name_to_number(name):
     return choices.index(name)
 
